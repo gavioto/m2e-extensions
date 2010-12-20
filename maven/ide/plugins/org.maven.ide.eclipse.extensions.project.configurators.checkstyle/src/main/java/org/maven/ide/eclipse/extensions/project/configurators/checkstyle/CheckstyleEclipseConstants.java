@@ -11,7 +11,7 @@ public final class CheckstyleEclipseConstants {
     public static final String MAVEN_PLUGIN_ARTIFACTID = "maven-checkstyle-plugin";
     public static final String ECLIPSE_CS_PREFS_FILE = ".checkstyle";
     public static final String ECLIPSE_CS_PREFS_CONFIG_NAME = "maven-chekstyle-plugin";
-    public static final String ECLIPSE_CS_CACHE_FILENAME = "${project_loc}/checkstyle-cachefile";
+    public static final String ECLIPSE_CS_CACHE_FILENAME = "${project_loc}/target/checkstyle-cachefile";
     
     private CheckstyleEclipseConstants() {
         //no instantiation.
